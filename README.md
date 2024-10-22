@@ -1,30 +1,20 @@
-# Ecommerce-website
 Credit Scoring Model
-A credit scoring model developed to predict the creditworthiness of individuals using historical financial data. The model applies machine learning classification algorithms to assess the risk of potential borrowers.
+A machine learning model that predicts the creditworthiness of individuals based on historical financial data.
 
 Features
-Data Handling: Automatically fills missing data in categorical columns with the mode.
-Label Encoding: Encodes categorical variables for model compatibility.
-Model: Utilizes a Random Forest Classifier to build the model, with class_weight='balanced' to manage class imbalances.
-Evaluation: The model's performance is measured using:
-Accuracy
-Classification Report
-Confusion Matrix
+Data Handling: Missing data in categorical columns is filled with the most frequent value (mode).
+Label Encoding: Categorical variables are label-encoded to prepare for model training.
+Random Forest Classifier: The model uses a Random Forest Classifier with class_weight='balanced' to manage class imbalances.
+Evaluation Metrics: Model performance is evaluated using accuracy, classification reports, and confusion matrices.
+Algorithm Used
+Random Forest Classifier: A popular ensemble learning method that combines multiple decision trees to improve prediction accuracy and handle imbalanced data.
 Tech Stack
-Python: The programming language for this project.
-Pandas: For data loading and preprocessing.
-scikit-learn: Used for splitting data, training the Random Forest classifier, and model evaluation.
-Matplotlib: For data visualization (future enhancements).
-How to Use
-Clone this repository to your local machine:
-bash
-Copy code
-git clone https://github.com/your-username/credit-scoring-model.git
-Install the required libraries:
-bash
-Copy code
-pip install pandas scikit-learn matplotlib
-Load the dataset (german_credit_data.csv) and run the code to train the model and evaluate its performance.
-Modify the code to experiment with different classification algorithms or hyperparameters.
+Python: Programming language used for data manipulation, model training, and evaluation.
+Pandas: For data loading, cleaning, and preprocessing.
+scikit-learn: Used for model building, data splitting, and evaluation.
+Matplotlib: Planned for future data visualization needs.
 Dataset
-The model is trained on the german_credit_data.csv dataset, which contains financial information and a "Risk" label indicating the creditworthiness of individuals.
+The dataset used for this project is german_credit_data.csv, containing financial details and the creditworthiness labels ("Risk") of individuals.
+
+Demo Video
+Demo Video
