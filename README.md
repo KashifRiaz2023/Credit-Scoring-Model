@@ -16,9 +16,9 @@ A Credit Scoring Model that predicts the creditworthiness of individuals using h
 ## Tech Stack
 
 - **Python**
-- **Pandas**: For data loading and preprocessing.
-- **scikit-learn**: Used for splitting data, training the Random Forest classifier, and evaluating model performance.
-- **Matplotlib**: For future data visualization needs.
+- **Pandas**
+- **scikit-learn**
+- **Matplotlib**
 
 ## Dataset
 
